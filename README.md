@@ -1,16 +1,23 @@
 # pokedex_mobile
 
-A new Flutter project.
+Mobile app that displays a list of all Pokemon’s which are able to fly.
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This project is an exercise.
 
-A few resources to get you started if this is your first Flutter project:
+Exercise description:
+```
+Make an app that displays a list of all Pokemon’s which are able to fly.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+You can use the following api for fetching the data https://pokeapi.co/api/v2/type/3/
+Each list item is clickable and it will open info page of that Pokemon.
+The user should be able to set and remove that Pokemon from favourites. If the list is updated or refetched, the app should remember that defined Pokemon.
+Try to write high quality code like you would in a production environment.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Optional: 
+* Use animations (for example, whenever the list will display, or favourite widget is pressed, transitions.
+* Add some test cases if you have time.
+```
+
+The assignment is intended to last around 4h.
